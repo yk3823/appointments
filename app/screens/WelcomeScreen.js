@@ -6,7 +6,7 @@ import Button from "../components/Button";
 function WelcomeScreen(props) {
     return (
         <ImageBackground
-            blurRadius={-30}
+            blurRadius={0}
             style={styles.background}
             source={require("../assets/sara.jpg")}
         >
